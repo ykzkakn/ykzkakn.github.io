@@ -1,43 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
   <meta charset="UTF-8">
   <title>Title</title>
 </head>
 <body>
 
-<div class="container">
+<div class="container" style="">
   <h1>Hello,world!<small>Are you happy?</small></h1>
   <p><mark>Let you wonderful place.</mark> </p>
   <p><em>Where do you wanna go?</em></p>
+  <p><s>打ち消し</s></p>
+  <p><u>下線</u></p>
+  <p><strong>太字</strong></p>
+  <p><small>小文字</small></p>
 
 
-    <p>2021年春学期</p>
+  <p class="small">小文字</p>
+  <p class="text-start">左寄せ</p>
+  <p class="text-end">右寄せ</p>
+  <p class="text-center">中央</p>
+  <p>pだけ文章</p>
+
   <ul>
-    <li>sea</li>
-    <li>park</li>
+    <li>順序なしリスト</li>
+    <li>順序なしリスト</li>
   </ul>
 
   <ol>
-    <li>house</li>
-    <li>room</li>
+    <li>順序付きリスト</li>
+    <li>順序付きリスト</li>
   </ol>
 
   <ul class="list-inline">
-    <li>sea</li>
-    <li>park</li>
+    <li class="list-inline-item">改行なし</li>
+    <li class="list-inline-item">改行なし</li>
   </ul>
 
   <ol class="list-unstyled">
-    <li>house</li>
-    <li>room</li>
+    <li>添字なし</li>
+    <li>添字なし</li>
   </ol>
 
+    <p><label><a class="btn btn-primary" role="button">a使用</a></label></p>
+    <p><label><button type="button" class="btn btn-secondary">button使用</button></label></p>
+    <p><label><input type="button" class="btn btn-success" value="input使用"></label></p>
+    <p><input type="button" class="btn btn-info" value="lavelなし"></p>
+
+  <div class="btn-group btn-group-lg" role="group" aria-label="Large button group" >kk</div>
+
+  <p><label><button type="button" class="btn btn-danger btn-lg">大きいサイズ</button></label></p>
+  <p><label><button type="button" class="btn btn-warning btn-sm">小さいサイズ</button></label></p>
+  <p><label><button type="button" class="btn btn-link">リンク形式</button></label></p>
+
+  <span class="bg-secondary">バッジ　badgeなし</span>
+  <span class="bg bg-primary">バッジ　badgeあり</span>
+
 </div>
+
 </body>
 </html>
